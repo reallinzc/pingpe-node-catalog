@@ -3,18 +3,19 @@
   "name": "pingpe-node-sync",
   "main": "src/index.ts",
   "compatibility_date": "2026-07-10",
-  "compatibility_flags": ["nodejs_compat_v2"],
+  "compatibility_flags": ["nodejs_compat"],
   "workers_dev": true,
   "browser": {
     "binding": "BROWSER"
   },
   "kv_namespaces": [
     {
-      "binding": "STATE"
+      "binding": "STATE",
+      "id": "5c4dec275efe455a8c1d634a278ee1ff"
     }
   ],
   "triggers": {
-    "crons": ["30 20 * * SUN"]
+    "crons": ["30 20 * * 1"]
   },
   "vars": {
     "PINGPE_TARGET": "191.223.216.145",

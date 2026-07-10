@@ -149,9 +149,8 @@ export default {
       if (request.method !== "POST") {
         return json({ error: "Method not allowed" }, 405);
       }
-      const authorization = request.headers.get("Authorization") ?? "";
-      const expected = `Bearer ${env.ADMIN_TOKEN}`;
-      if (!env.ADMIN_TOKEN || !constantTimeEqual(authorization, expected)) {
+      const adminToken = request.headers.get("X-Admin-Token") ?? "";
+      if (!env.ADMIN_TOKEN || !constantTimeEqual(adminToken, env.ADMIN_TOKEN)) {
         return json({ error: "Unauthorized" }, 401);
       }
       try {
@@ -174,7 +173,7 @@ export default {
         source: "https://ping.pe/",
         repository: `https://github.com/${env.GITHUB_OWNER}/${env.GITHUB_REPO}`,
         endpoints: ["/healthz", "/catalog.json"],
-        schedule: "30 20 * * SUN (UTC)",
+        schedule: "30 20 * * 1 (UTC)",
       });
     }
 

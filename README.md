@@ -82,14 +82,14 @@ wrangler secret put ADMIN_TOKEN
 npm run deploy
 ```
 
-The configured schedule is `30 20 * * SUN`, or Monday 04:30 in China Standard
+The configured schedule is `30 20 * * 1`, or Monday 04:30 in China Standard
 Time. Cloudflare Cron expressions use UTC.
 
 Manual authenticated refresh:
 
 ```bash
 curl -X POST \
-  -H "Authorization: Bearer $ADMIN_TOKEN" \
+  -H "X-Admin-Token: $ADMIN_TOKEN" \
   https://pingpe-node-sync.<account-subdomain>.workers.dev/api/sync
 ```
 
