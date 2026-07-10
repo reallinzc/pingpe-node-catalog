@@ -1,0 +1,29 @@
+{
+  "name": "pingpe-node-sync",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Scheduled Cloudflare Worker that publishes the public Ping.pe pinger catalog to GitHub.",
+  "type": "module",
+  "scripts": {
+    "build": "wrangler deploy --dry-run --outdir dist",
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "types": "wrangler types",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "ping.pe",
+    "network-measurement"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@cloudflare/puppeteer": "^1.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10",
+    "wrangler": "^4.110.0"
+  }
+}

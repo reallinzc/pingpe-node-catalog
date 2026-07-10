@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "description": "Stable Ping.pe pinger IDs used by the international route matrix. IPs are refreshed from Ping.pe.",
+  "targets": [
+    {
+      "id": "CA_BC_30",
+      "label": "PingPE-CA-Vancouver-Hurricane",
+      "reason": "West-coast Canada anchor on Hurricane Electric"
+    },
+    {
+      "id": "US_WA_20",
+      "label": "PingPE-US-Seattle-Google",
+      "reason": "Pacific Northwest hyperscaler anchor"
+    },
+    {
+      "id": "US_CA_35",
+      "label": "PingPE-US-LosAngeles-Vultr",
+      "reason": "US west-coast commercial transit anchor"
+    },
+    {
+      "id": "US_TX_10",
+      "label": "PingPE-US-Dallas-NetActuate",
+      "reason": "Central US routing anchor"
+    },
+    {
+      "id": "US_FL_10",
+      "label": "PingPE-US-Miami-Goodleaf",
+      "reason": "Southeast US and Latin-America gateway anchor"
+    },
+    {
+      "id": "CA_ON_6",
+      "label": "PingPE-CA-Toronto-NetActuate",
+      "reason": "Eastern Canada anchor"
+    },
+    {
+      "id": "US_VA_10",
+      "label": "PingPE-US-Ashburn-NetActuate",
+      "reason": "US east-coast interconnection anchor"
+    },
+    {
+      "id": "CO_110",
+      "label": "PingPE-CO-Barranquilla-NetActuate",
+      "reason": "Northern South America and Caribbean-facing anchor"
+    },
+    {
+      "id": "CL_1",
+      "label": "PingPE-CL-Santiago-NetActuate",
+      "reason": "South America west-coast anchor"
+    },
+    {
+      "id": "AR_100",
+      "label": "PingPE-AR-BuenosAires-Advantun",
+      "reason": "Southern South America anchor"
+    },
+    {
+      "id": "BR_20",
+      "label": "PingPE-BR-SaoPaulo-NetActuate",
+      "reason": "Brazilian internet hub anchor"
+    },
+    {
+      "id": "GB_130",
+      "label": "PingPE-UK-London-Cosmic",
+      "reason": "Western Europe and transatlantic anchor"
+    },
+    {
+      "id": "EU_FR_20",
+      "label": "PingPE-FR-Paris-NetActuate",
+      "reason": "France regional anchor"
+    },
+    {
+      "id": "EU_NL_30",
+      "label": "PingPE-NL-Amsterdam-Hybula",
+      "reason": "Amsterdam interconnection anchor"
+    },
+    {
+      "id": "EU_DE_4",
+      "label": "PingPE-DE-Frankfurt-Nexonhost",
+      "reason": "Frankfurt interconnection anchor"
+    },
+    {
+      "id": "EU_ES_110",
+      "label": "PingPE-ES-Madrid-NetActuate",
+      "reason": "Southwest Europe anchor"
+    },
+    {
+      "id": "EU_SE_10",
+      "label": "PingPE-SE-Stockholm-Skhron",
+      "reason": "Nordic routing anchor"
+    },
+    {
+      "id": "EU_PL_10",
+      "label": "PingPE-PL-Warsaw-H2Nexus",
+      "reason": "Central and eastern Europe anchor"
+    },
+    {
+      "id": "EU_GR_10",
+      "label": "PingPE-GR-Athens-Fusioned",
+      "reason": "Southeast Europe anchor"
+    },
+    {
+      "id": "MA_6",
+      "label": "PingPE-MA-Fez-Hostoweb",
+      "reason": "North Africa anchor"
+    },
+    {
+      "id": "GH_6",
+      "label": "PingPE-GH-Accra-NetActuate",
+      "reason": "West Africa Gulf of Guinea anchor"
+    },
+    {
+      "id": "NG_110",
+      "label": "PingPE-NG-Lagos-EdgeNext",
+      "reason": "West Africa population and peering anchor"
+    },
+    {
+      "id": "ZA_110",
+      "label": "PingPE-ZA-Johannesburg-EdgeNext",
+      "reason": "Southern Africa anchor"
+    },
+    {
+      "id": "KE_6",
+      "label": "PingPE-KE-Nairobi-NetActuate",
+      "reason": "East Africa anchor"
+    },
+    {
+      "id": "TR_110",
+      "label": "PingPE-TR-Istanbul-Oneprovider",
+      "reason": "Europe-to-Middle-East gateway anchor"
+    },
+    {
+      "id": "IL_110",
+      "label": "PingPE-IL-TelAviv-Oneprovider",
+      "reason": "Eastern Mediterranean anchor"
+    },
+    {
+      "id": "UAE_3",
+      "label": "PingPE-AE-Dubai-NetActuate",
+      "reason": "Gulf interconnection anchor"
+    },
+    {
+      "id": "OM_110",
+      "label": "PingPE-OM-Muscat-EdgeNext",
+      "reason": "Arabian Sea cable-path anchor"
+    },
+    {
+      "id": "PK_10",
+      "label": "PingPE-PK-Karachi-EdgeNext",
+      "reason": "South Asia west-edge anchor"
+    },
+    {
+      "id": "IN_110",
+      "label": "PingPE-IN-Mumbai-Vultr",
+      "reason": "India west-coast cable and cloud anchor"
+    },
+    {
+      "id": "TH_110",
+      "label": "PingPE-TH-Bangkok-SGGS",
+      "reason": "Mainland Southeast Asia anchor"
+    },
+    {
+      "id": "SG_110",
+      "label": "PingPE-SG-Singapore-SGGS",
+      "reason": "Southeast Asia interconnection hub"
+    },
+    {
+      "id": "ID_110",
+      "label": "PingPE-ID-Bogor-Pakuan",
+      "reason": "Maritime Southeast Asia anchor"
+    },
+    {
+      "id": "HK_110",
+      "label": "PingPE-HK-HongKong-MLNL",
+      "reason": "Hong Kong regional hub anchor"
+    },
+    {
+      "id": "JP_10",
+      "label": "PingPE-JP-Tokyo-DODO",
+      "reason": "Northeast Asia and Tokyo hub anchor"
+    },
+    {
+      "id": "TW_1",
+      "label": "PingPE-TW-Taichung-Google",
+      "reason": "Taiwan hyperscaler anchor"
+    },
+    {
+      "id": "AU_110",
+      "label": "PingPE-AU-Sydney-Vultr",
+      "reason": "Oceania and Australia anchor"
+    }
+  ]
+}
