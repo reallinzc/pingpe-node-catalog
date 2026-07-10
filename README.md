@@ -93,6 +93,10 @@ curl -X POST \
   https://pingpe-node-sync.<account-subdomain>.workers.dev/api/sync
 ```
 
+In this netops workspace, `scripts/trigger-sync.sh` derives the dedicated
+admin credential from the private root `.env`, activates it with the current
+deployment, and performs the request without printing the credential.
+
 ## Failure behavior
 
 The Worker refuses to overwrite known-good GitHub data when Ping.pe changes
