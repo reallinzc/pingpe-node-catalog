@@ -6,17 +6,17 @@
     "target": "191.223.216.145",
     "method": "public-task-result"
   },
-  "observed_at": "2026-07-12T20:30:58.168Z",
-  "catalog_hash": "59771e55fe349bbd7ca8442f9f49b60b77f0198678980bf07d4b5a8f07ea00a3",
-  "node_count": 154,
+  "observed_at": "2026-07-19T20:30:39.019Z",
+  "catalog_hash": "a5fabd92cd38caf5e432d2e6fd52072c37383eae822da43efb8fcd7d543ce698",
+  "node_count": 159,
   "curated_count": 37,
   "region_counts": {
     "north-america": 36,
     "south-america": 8,
     "europe": 43,
     "africa": 5,
-    "middle-east": 16,
-    "asia": 44,
+    "middle-east": 17,
+    "asia": 48,
     "oceania": 2,
     "unknown": 0
   },
@@ -163,6 +163,16 @@
       "region": "asia"
     },
     {
+      "id": "BD_240",
+      "ip": "103.149.143.238",
+      "location": "Bangladesh, Dhaka",
+      "provider": "Carnival",
+      "short_location": "BD Dhk",
+      "short_provider": "Crnval",
+      "country_code": "BD",
+      "region": "asia"
+    },
+    {
       "id": "BD_290",
       "ip": "202.37.52.72",
       "location": "Bangladesh, Cumilla",
@@ -269,6 +279,16 @@
       "provider": "OVH",
       "short_location": "CA Mtl",
       "short_provider": "OVH",
+      "country_code": "CA",
+      "region": "north-america"
+    },
+    {
+      "id": "CA_QC_110",
+      "ip": "185.206.170.125",
+      "location": "Canada, QC, Montreal",
+      "provider": "YottaSrc",
+      "short_location": "CA Mtl",
+      "short_provider": "Yotta",
       "country_code": "CA",
       "region": "north-america"
     },
@@ -873,6 +893,16 @@
       "region": "asia"
     },
     {
+      "id": "HK_115",
+      "ip": "185.206.171.190",
+      "location": "Hong Kong",
+      "provider": "YottaSrc",
+      "short_location": "HK",
+      "short_provider": "Yotta",
+      "country_code": "HK",
+      "region": "asia"
+    },
+    {
       "id": "HK_120",
       "ip": "205.147.105.120",
       "location": "Hong Kong",
@@ -889,6 +919,16 @@
       "provider": "Pakuan Univer",
       "short_location": "ID Bog",
       "short_provider": "Pakuan",
+      "country_code": "ID",
+      "region": "asia"
+    },
+    {
+      "id": "ID_310",
+      "ip": "178.83.180.15",
+      "location": "Indonesia, Bandung",
+      "provider": "Atlantic",
+      "short_location": "ID Bdo",
+      "short_provider": "Atlntc",
       "country_code": "ID",
       "region": "asia"
     },
@@ -919,6 +959,16 @@
       "provider": "Vultr",
       "short_location": "IN Mum",
       "short_provider": "Vultr",
+      "country_code": "IN",
+      "region": "asia"
+    },
+    {
+      "id": "IN_114",
+      "ip": "103.68.28.55",
+      "location": "India, Delhi",
+      "provider": "Rapidnet",
+      "short_location": "IN Del",
+      "short_provider": "RpdNet",
       "country_code": "IN",
       "region": "asia"
     },
@@ -1173,6 +1223,16 @@
       "region": "middle-east"
     },
     {
+      "id": "TR_120",
+      "ip": "91.92.16.7",
+      "location": "Turkey, Bursa",
+      "provider": "NetWeb",
+      "short_location": "TR Bur",
+      "short_provider": "NetWeb",
+      "country_code": "TR",
+      "region": "middle-east"
+    },
+    {
       "id": "TR_150",
       "ip": "45.10.151.32",
       "location": "Turkey, Ankara",
@@ -1259,16 +1319,6 @@
       "provider": "Digital Ocean",
       "short_location": "US SF",
       "short_provider": "DO",
-      "country_code": "US",
-      "region": "north-america"
-    },
-    {
-      "id": "US_CA_25",
-      "ip": "71.19.144.157",
-      "location": "USA, CA, Santa Clara",
-      "provider": "Hurricane",
-      "short_location": "US SC",
-      "short_provider": "HE",
       "country_code": "US",
       "region": "north-america"
     },
