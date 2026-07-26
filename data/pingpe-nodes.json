@@ -6,21 +6,24 @@
     "target": "191.223.216.145",
     "method": "public-task-result"
   },
-  "observed_at": "2026-07-19T20:30:39.019Z",
-  "catalog_hash": "a5fabd92cd38caf5e432d2e6fd52072c37383eae822da43efb8fcd7d543ce698",
+  "observed_at": "2026-07-26T20:30:47.539Z",
+  "catalog_hash": "16ee8ec03fc7a3c3e5603670927925cec51ad4fd867658926698e80a61fc9bbd",
   "node_count": 159,
-  "curated_count": 37,
+  "curated_count": 35,
   "region_counts": {
-    "north-america": 36,
+    "north-america": 37,
     "south-america": 8,
     "europe": 43,
     "africa": 5,
-    "middle-east": 17,
+    "middle-east": 16,
     "asia": 48,
     "oceania": 2,
     "unknown": 0
   },
-  "missing_curated_ids": [],
+  "missing_curated_ids": [
+    "TR_110",
+    "OM_110"
+  ],
   "nodes": [
     {
       "id": "AR_100",
@@ -1103,16 +1106,6 @@
       "region": "africa"
     },
     {
-      "id": "OM_110",
-      "ip": "143.14.56.53",
-      "location": "Oman, Muscat",
-      "provider": "EdgeNext",
-      "short_location": "OM MCT",
-      "short_provider": "EdgNxt",
-      "country_code": "OM",
-      "region": "middle-east"
-    },
-    {
       "id": "PK_10",
       "ip": "154.92.30.70",
       "location": "Pakistan, Karachi",
@@ -1183,16 +1176,6 @@
       "region": "middle-east"
     },
     {
-      "id": "TR_110",
-      "ip": "185.123.101.33",
-      "location": "Turkey, Istanbul",
-      "provider": "Oneprovider",
-      "short_location": "TR Ist",
-      "short_provider": "OnePr",
-      "country_code": "TR",
-      "region": "middle-east"
-    },
-    {
       "id": "TR_111",
       "ip": "213.142.132.134",
       "location": "Turkey, Istanbul",
@@ -1229,6 +1212,16 @@
       "provider": "NetWeb",
       "short_location": "TR Bur",
       "short_provider": "NetWeb",
+      "country_code": "TR",
+      "region": "middle-east"
+    },
+    {
+      "id": "TR_121",
+      "ip": "62.106.94.246",
+      "location": "Turkey, Bursa",
+      "provider": "PENDC",
+      "short_location": "TR Bur",
+      "short_provider": "PENDC",
       "country_code": "TR",
       "region": "middle-east"
     },
@@ -1319,6 +1312,16 @@
       "provider": "Digital Ocean",
       "short_location": "US SF",
       "short_provider": "DO",
+      "country_code": "US",
+      "region": "north-america"
+    },
+    {
+      "id": "US_CA_25",
+      "ip": "71.19.144.157",
+      "location": "USA, CA, Santa Clara",
+      "provider": "Hurricane",
+      "short_location": "US SC",
+      "short_provider": "HE",
       "country_code": "US",
       "region": "north-america"
     },
@@ -1903,18 +1906,6 @@
       "reason": "East Africa anchor"
     },
     {
-      "id": "TR_110",
-      "ip": "185.123.101.33",
-      "location": "Turkey, Istanbul",
-      "provider": "Oneprovider",
-      "short_location": "TR Ist",
-      "short_provider": "OnePr",
-      "country_code": "TR",
-      "region": "middle-east",
-      "label": "PingPE-TR-Istanbul-Oneprovider",
-      "reason": "Europe-to-Middle-East gateway anchor"
-    },
-    {
       "id": "IL_110",
       "ip": "147.78.2.180",
       "location": "Israel, Tel Aviv",
@@ -1937,18 +1928,6 @@
       "region": "middle-east",
       "label": "PingPE-AE-Dubai-NetActuate",
       "reason": "Gulf interconnection anchor"
-    },
-    {
-      "id": "OM_110",
-      "ip": "143.14.56.53",
-      "location": "Oman, Muscat",
-      "provider": "EdgeNext",
-      "short_location": "OM MCT",
-      "short_provider": "EdgNxt",
-      "country_code": "OM",
-      "region": "middle-east",
-      "label": "PingPE-OM-Muscat-EdgeNext",
-      "reason": "Arabian Sea cable-path anchor"
     },
     {
       "id": "PK_10",
