@@ -6,24 +6,21 @@
     "target": "191.223.216.145",
     "method": "public-task-result"
   },
-  "observed_at": "2026-07-26T20:30:47.539Z",
-  "catalog_hash": "16ee8ec03fc7a3c3e5603670927925cec51ad4fd867658926698e80a61fc9bbd",
-  "node_count": 159,
-  "curated_count": 35,
+  "observed_at": "2026-08-02T20:31:06.505Z",
+  "catalog_hash": "3b690fda955190040e6f896534b759de5fc070f31fe37492abb03b3332c69eee",
+  "node_count": 165,
+  "curated_count": 37,
   "region_counts": {
     "north-america": 37,
     "south-america": 8,
-    "europe": 43,
+    "europe": 47,
     "africa": 5,
-    "middle-east": 16,
+    "middle-east": 18,
     "asia": 48,
     "oceania": 2,
     "unknown": 0
   },
-  "missing_curated_ids": [
-    "TR_110",
-    "OM_110"
-  ],
+  "missing_curated_ids": [],
   "nodes": [
     {
       "id": "AR_100",
@@ -476,6 +473,16 @@
       "region": "europe"
     },
     {
+      "id": "EU_AT_40",
+      "ip": "185.224.3.17",
+      "location": "Austria, Vienna",
+      "provider": "PipeHost",
+      "short_location": "AT Vie",
+      "short_provider": "PipeH",
+      "country_code": "AT",
+      "region": "europe"
+    },
+    {
       "id": "EU_CH_110",
       "ip": "185.44.82.20",
       "location": "Switzerland, Zurich",
@@ -542,6 +549,16 @@
       "provider": "Freakhosting",
       "short_location": "DE Fra",
       "short_provider": "FreakH",
+      "country_code": "DE",
+      "region": "europe"
+    },
+    {
+      "id": "EU_DE_6",
+      "ip": "157.173.7.106",
+      "location": "Germany, Frankfurt",
+      "provider": "PipeHost",
+      "short_location": "DE Fra",
+      "short_provider": "PipeH",
       "country_code": "DE",
       "region": "europe"
     },
@@ -662,6 +679,16 @@
       "provider": "MLNL.HOST",
       "short_location": "NL Egh",
       "short_provider": "MLNL",
+      "country_code": "NL",
+      "region": "europe"
+    },
+    {
+      "id": "EU_NL_170",
+      "ip": "192.88.182.102",
+      "location": "Netherlands, Eygelshoven",
+      "provider": "PipeHost",
+      "short_location": "NL Egh",
+      "short_provider": "PipeH",
       "country_code": "NL",
       "region": "europe"
     },
@@ -792,6 +819,16 @@
       "provider": "Skhron",
       "short_location": "SE Sto",
       "short_provider": "Skhron",
+      "country_code": "SE",
+      "region": "europe"
+    },
+    {
+      "id": "EU_SE_20",
+      "ip": "157.173.3.160",
+      "location": "Sweden, Stockholm",
+      "provider": "PipeHost",
+      "short_location": "SE Sto",
+      "short_provider": "PipeH",
       "country_code": "SE",
       "region": "europe"
     },
@@ -1106,6 +1143,16 @@
       "region": "africa"
     },
     {
+      "id": "OM_110",
+      "ip": "143.14.56.53",
+      "location": "Oman, Muscat",
+      "provider": "EdgeNext",
+      "short_location": "OM MCT",
+      "short_provider": "EdgNxt",
+      "country_code": "OM",
+      "region": "middle-east"
+    },
+    {
       "id": "PK_10",
       "ip": "154.92.30.70",
       "location": "Pakistan, Karachi",
@@ -1172,6 +1219,16 @@
       "provider": "Netdirekt",
       "short_location": "TR Izm",
       "short_provider": "Netdir",
+      "country_code": "TR",
+      "region": "middle-east"
+    },
+    {
+      "id": "TR_110",
+      "ip": "185.123.101.33",
+      "location": "Turkey, Istanbul",
+      "provider": "Oneprovider",
+      "short_location": "TR Ist",
+      "short_provider": "OnePr",
       "country_code": "TR",
       "region": "middle-east"
     },
@@ -1906,6 +1963,18 @@
       "reason": "East Africa anchor"
     },
     {
+      "id": "TR_110",
+      "ip": "185.123.101.33",
+      "location": "Turkey, Istanbul",
+      "provider": "Oneprovider",
+      "short_location": "TR Ist",
+      "short_provider": "OnePr",
+      "country_code": "TR",
+      "region": "middle-east",
+      "label": "PingPE-TR-Istanbul-Oneprovider",
+      "reason": "Europe-to-Middle-East gateway anchor"
+    },
+    {
       "id": "IL_110",
       "ip": "147.78.2.180",
       "location": "Israel, Tel Aviv",
@@ -1928,6 +1997,18 @@
       "region": "middle-east",
       "label": "PingPE-AE-Dubai-NetActuate",
       "reason": "Gulf interconnection anchor"
+    },
+    {
+      "id": "OM_110",
+      "ip": "143.14.56.53",
+      "location": "Oman, Muscat",
+      "provider": "EdgeNext",
+      "short_location": "OM MCT",
+      "short_provider": "EdgNxt",
+      "country_code": "OM",
+      "region": "middle-east",
+      "label": "PingPE-OM-Muscat-EdgeNext",
+      "reason": "Arabian Sea cable-path anchor"
     },
     {
       "id": "PK_10",
