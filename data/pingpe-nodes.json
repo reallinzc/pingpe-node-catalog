@@ -6,25 +6,21 @@
     "target": "191.223.216.145",
     "method": "public-task-result"
   },
-  "observed_at": "2026-08-09T20:30:52.916Z",
-  "catalog_hash": "191dac4890916be3406555c586bb72062d192e61913c2689c7d56a38208ad72a",
-  "node_count": 160,
-  "curated_count": 34,
+  "observed_at": "2026-08-16T20:30:15.954Z",
+  "catalog_hash": "f90a072bd7ef5973c95420d56a9bedf1ff897b326b785a815a3486ffa4c6daf7",
+  "node_count": 166,
+  "curated_count": 37,
   "region_counts": {
-    "north-america": 36,
+    "north-america": 38,
     "south-america": 8,
     "europe": 46,
     "africa": 5,
     "middle-east": 17,
-    "asia": 45,
+    "asia": 48,
     "oceania": 2,
-    "unknown": 1
+    "unknown": 2
   },
-  "missing_curated_ids": [
-    "OM_110",
-    "TH_110",
-    "JP_10"
-  ],
+  "missing_curated_ids": [],
   "nodes": [
     {
       "id": "AR_100",
@@ -947,6 +943,16 @@
       "region": "asia"
     },
     {
+      "id": "ID_210",
+      "ip": "103.87.68.235",
+      "location": "Indonesia, Jakarta",
+      "provider": "Atharva",
+      "short_location": "ID Jkt",
+      "short_provider": "Athrva",
+      "country_code": "ID",
+      "region": "asia"
+    },
+    {
       "id": "ID_310",
       "ip": "178.83.180.15",
       "location": "Indonesia, Bandung",
@@ -1057,6 +1063,16 @@
       "region": "middle-east"
     },
     {
+      "id": "JP_10",
+      "ip": "103.134.34.7",
+      "location": "Japan, Tokyo",
+      "provider": "DODO",
+      "short_location": "JP Tyo",
+      "short_provider": "DODO",
+      "country_code": "JP",
+      "region": "asia"
+    },
+    {
       "id": "JP_120",
       "ip": "103.84.155.21",
       "location": "Japan, Tokyo",
@@ -1117,6 +1133,16 @@
       "region": "africa"
     },
     {
+      "id": "OM_110",
+      "ip": "143.14.56.53",
+      "location": "Oman, Muscat",
+      "provider": "EdgeNext",
+      "short_location": "OM MCT",
+      "short_provider": "EdgNxt",
+      "country_code": "OM",
+      "region": "middle-east"
+    },
+    {
       "id": "PK_10",
       "ip": "154.92.30.70",
       "location": "Pakistan, Karachi",
@@ -1125,6 +1151,16 @@
       "short_provider": "EdgNxt",
       "country_code": "PK",
       "region": "asia"
+    },
+    {
+      "id": "PR_110",
+      "ip": "104.255.180.23",
+      "location": "Puerto Rico, San Juan",
+      "provider": "HRCOM",
+      "short_location": "PR SJU",
+      "short_provider": "HRCOM",
+      "country_code": "PR",
+      "region": "unknown"
     },
     {
       "id": "PY_110",
@@ -1154,6 +1190,16 @@
       "short_location": "SG",
       "short_provider": "NetAct",
       "country_code": "SG",
+      "region": "asia"
+    },
+    {
+      "id": "TH_110",
+      "ip": "163.47.179.246",
+      "location": "Thailand, Bangkok",
+      "provider": "SG.GS",
+      "short_location": "TH Bkk",
+      "short_provider": "SG.GS",
+      "country_code": "TH",
       "region": "asia"
     },
     {
@@ -1213,16 +1259,6 @@
       "provider": "Netlen",
       "short_location": "TR Ist",
       "short_provider": "Netlen",
-      "country_code": "TR",
-      "region": "middle-east"
-    },
-    {
-      "id": "TR_120",
-      "ip": "91.92.16.7",
-      "location": "Turkey, Bursa",
-      "provider": "NetWeb",
-      "short_location": "TR Bur",
-      "short_provider": "NetWeb",
       "country_code": "TR",
       "region": "middle-east"
     },
@@ -1427,6 +1463,16 @@
       "region": "north-america"
     },
     {
+      "id": "US_FL_50",
+      "ip": "23.143.4.184",
+      "location": "USA, FL, Miami",
+      "provider": "Master IT",
+      "short_location": "US Mia",
+      "short_provider": "MstrIT",
+      "country_code": "US",
+      "region": "north-america"
+    },
+    {
       "id": "US_IL_10",
       "ip": "209.177.158.115",
       "location": "USA, IL, Chicago",
@@ -1483,6 +1529,16 @@
       "provider": "Goodleaf",
       "short_location": "US NJ",
       "short_provider": "Gdleaf",
+      "country_code": "US",
+      "region": "north-america"
+    },
+    {
+      "id": "US_NJ_20",
+      "ip": "162.216.114.67",
+      "location": "USA, NJ, Secaucus",
+      "provider": "Interserver",
+      "short_location": "US NJ",
+      "short_provider": "Intrsr",
       "country_code": "US",
       "region": "north-america"
     },
@@ -1953,6 +2009,18 @@
       "reason": "Gulf interconnection anchor"
     },
     {
+      "id": "OM_110",
+      "ip": "143.14.56.53",
+      "location": "Oman, Muscat",
+      "provider": "EdgeNext",
+      "short_location": "OM MCT",
+      "short_provider": "EdgNxt",
+      "country_code": "OM",
+      "region": "middle-east",
+      "label": "PingPE-OM-Muscat-EdgeNext",
+      "reason": "Arabian Sea cable-path anchor"
+    },
+    {
       "id": "PK_10",
       "ip": "154.92.30.70",
       "location": "Pakistan, Karachi",
@@ -1975,6 +2043,18 @@
       "region": "asia",
       "label": "PingPE-IN-Mumbai-Vultr",
       "reason": "India west-coast cable and cloud anchor"
+    },
+    {
+      "id": "TH_110",
+      "ip": "163.47.179.246",
+      "location": "Thailand, Bangkok",
+      "provider": "SG.GS",
+      "short_location": "TH Bkk",
+      "short_provider": "SG.GS",
+      "country_code": "TH",
+      "region": "asia",
+      "label": "PingPE-TH-Bangkok-SGGS",
+      "reason": "Mainland Southeast Asia anchor"
     },
     {
       "id": "SG_110",
@@ -2011,6 +2091,18 @@
       "region": "asia",
       "label": "PingPE-HK-HongKong-MLNL",
       "reason": "Hong Kong regional hub anchor"
+    },
+    {
+      "id": "JP_10",
+      "ip": "103.134.34.7",
+      "location": "Japan, Tokyo",
+      "provider": "DODO",
+      "short_location": "JP Tyo",
+      "short_provider": "DODO",
+      "country_code": "JP",
+      "region": "asia",
+      "label": "PingPE-JP-Tokyo-DODO",
+      "reason": "Northeast Asia and Tokyo hub anchor"
     },
     {
       "id": "TW_1",
