@@ -6,17 +6,17 @@
     "target": "191.223.216.145",
     "method": "public-task-result"
   },
-  "observed_at": "2026-08-23T20:30:11.930Z",
-  "catalog_hash": "73701d26b6abfe427ae70adb1754c6b1ab32f6b5d410f7e1ccd8c7a49f6494d1",
-  "node_count": 165,
+  "observed_at": "2026-08-30T20:30:26.235Z",
+  "catalog_hash": "a7d1eca1afe4d725bf430e6fbe75b2ce378b85ed4b868d86224cd6a29f0268d2",
+  "node_count": 166,
   "curated_count": 36,
   "region_counts": {
-    "north-america": 39,
+    "north-america": 38,
     "south-america": 8,
-    "europe": 45,
+    "europe": 46,
     "africa": 5,
     "middle-east": 17,
-    "asia": 47,
+    "asia": 48,
     "oceania": 2,
     "unknown": 2
   },
@@ -265,16 +265,6 @@
       "region": "north-america"
     },
     {
-      "id": "CA_QC_1",
-      "ip": "192.95.26.127",
-      "location": "Canada, QC, Montreal",
-      "provider": "OVH",
-      "short_location": "CA Mtl",
-      "short_provider": "OVH",
-      "country_code": "CA",
-      "region": "north-america"
-    },
-    {
       "id": "CA_QC_110",
       "ip": "185.206.170.125",
       "location": "Canada, QC, Montreal",
@@ -341,6 +331,16 @@
       "provider": "China Unicom",
       "short_location": "CN Js",
       "short_provider": "CU",
+      "country_code": "CN",
+      "region": "asia"
+    },
+    {
+      "id": "CN_112",
+      "ip": "61.164.246.102",
+      "location": "China, Lishui",
+      "provider": "China Telecom",
+      "short_location": "CN Lsh",
+      "short_provider": "CT",
       "country_code": "CN",
       "region": "asia"
     },
@@ -741,6 +741,16 @@
       "provider": "H2.Nexus",
       "short_location": "PL Waw",
       "short_provider": "H2Nexs",
+      "country_code": "PL",
+      "region": "europe"
+    },
+    {
+      "id": "EU_PL_210",
+      "ip": "92.62.251.72",
+      "location": "Poland, Wyszkow",
+      "provider": "Freakhosting",
+      "short_location": "PL Wys",
+      "short_provider": "FreakH",
       "country_code": "PL",
       "region": "europe"
     },
