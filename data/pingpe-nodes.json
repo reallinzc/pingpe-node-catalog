@@ -6,12 +6,12 @@
     "target": "191.223.216.145",
     "method": "public-task-result"
   },
-  "observed_at": "2026-08-30T20:30:26.235Z",
-  "catalog_hash": "a7d1eca1afe4d725bf430e6fbe75b2ce378b85ed4b868d86224cd6a29f0268d2",
-  "node_count": 166,
+  "observed_at": "2026-09-06T20:30:57.374Z",
+  "catalog_hash": "025c3c56b981d99024024475d723c0be54ee5841cffeb8ec3a7582f8ae4f5dda",
+  "node_count": 165,
   "curated_count": 36,
   "region_counts": {
-    "north-america": 38,
+    "north-america": 37,
     "south-america": 8,
     "europe": 46,
     "africa": 5,
@@ -1481,16 +1481,6 @@
       "provider": "Infraly",
       "short_location": "US Chi",
       "short_provider": "Infrly",
-      "country_code": "US",
-      "region": "north-america"
-    },
-    {
-      "id": "US_IL_60",
-      "ip": "185.108.205.201",
-      "location": "USA, IL, Chicago",
-      "provider": "Teracast",
-      "short_location": "US Chi",
-      "short_provider": "Tercst",
       "country_code": "US",
       "region": "north-america"
     },
