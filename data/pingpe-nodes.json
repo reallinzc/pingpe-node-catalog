@@ -6,22 +6,22 @@
     "target": "191.223.216.145",
     "method": "public-task-result"
   },
-  "observed_at": "2026-09-06T20:30:57.374Z",
-  "catalog_hash": "025c3c56b981d99024024475d723c0be54ee5841cffeb8ec3a7582f8ae4f5dda",
+  "observed_at": "2026-09-13T20:30:57.632Z",
+  "catalog_hash": "40f17945ee708e4927084c1e75817ab75d64432e62a2d2113437aadda7ee12a5",
   "node_count": 165,
   "curated_count": 36,
   "region_counts": {
-    "north-america": 37,
+    "north-america": 38,
     "south-america": 8,
-    "europe": 46,
+    "europe": 45,
     "africa": 5,
-    "middle-east": 17,
-    "asia": 48,
+    "middle-east": 18,
+    "asia": 47,
     "oceania": 2,
     "unknown": 2
   },
   "missing_curated_ids": [
-    "OM_110"
+    "EU_DE_4"
   ],
   "nodes": [
     {
@@ -71,16 +71,6 @@
       "provider": "Dot Internet",
       "short_location": "BD Dhk",
       "short_provider": "DotInt",
-      "country_code": "BD",
-      "region": "asia"
-    },
-    {
-      "id": "BD_140",
-      "ip": "123.49.9.6",
-      "location": "Bangladesh, Dhaka",
-      "provider": "BTCL",
-      "short_location": "BD Dhk",
-      "short_provider": "BTCL",
       "country_code": "BD",
       "region": "asia"
     },
@@ -511,16 +501,6 @@
       "provider": "Evolushost",
       "short_location": "DE Ber",
       "short_provider": "Evolus",
-      "country_code": "DE",
-      "region": "europe"
-    },
-    {
-      "id": "EU_DE_4",
-      "ip": "103.76.130.210",
-      "location": "Germany, Frankfurt",
-      "provider": "Nexonhost",
-      "short_location": "DE Fra",
-      "short_provider": "Nexon",
       "country_code": "DE",
       "region": "europe"
     },
@@ -1125,6 +1105,16 @@
       "region": "africa"
     },
     {
+      "id": "OM_110",
+      "ip": "143.14.56.53",
+      "location": "Oman, Muscat",
+      "provider": "EdgeNext",
+      "short_location": "OM MCT",
+      "short_provider": "EdgNxt",
+      "country_code": "OM",
+      "region": "middle-east"
+    },
+    {
       "id": "PK_10",
       "ip": "154.92.30.70",
       "location": "Pakistan, Karachi",
@@ -1495,6 +1485,16 @@
       "region": "north-america"
     },
     {
+      "id": "US_MI_110",
+      "ip": "158.173.218.14",
+      "location": "USA, MI, Detroit",
+      "provider": "RackGenius",
+      "short_location": "US Det",
+      "short_provider": "RckGns",
+      "country_code": "US",
+      "region": "north-america"
+    },
+    {
       "id": "US_MI_20",
       "ip": "163.123.236.82",
       "location": "USA, MI, Grand Rapids",
@@ -1845,18 +1845,6 @@
       "reason": "Amsterdam interconnection anchor"
     },
     {
-      "id": "EU_DE_4",
-      "ip": "103.76.130.210",
-      "location": "Germany, Frankfurt",
-      "provider": "Nexonhost",
-      "short_location": "DE Fra",
-      "short_provider": "Nexon",
-      "country_code": "DE",
-      "region": "europe",
-      "label": "PingPE-DE-Frankfurt-Nexonhost",
-      "reason": "Frankfurt interconnection anchor"
-    },
-    {
       "id": "EU_ES_110",
       "ip": "45.159.97.148",
       "location": "Spain, Madrid",
@@ -1999,6 +1987,18 @@
       "region": "middle-east",
       "label": "PingPE-AE-Dubai-NetActuate",
       "reason": "Gulf interconnection anchor"
+    },
+    {
+      "id": "OM_110",
+      "ip": "143.14.56.53",
+      "location": "Oman, Muscat",
+      "provider": "EdgeNext",
+      "short_location": "OM MCT",
+      "short_provider": "EdgNxt",
+      "country_code": "OM",
+      "region": "middle-east",
+      "label": "PingPE-OM-Muscat-EdgeNext",
+      "reason": "Arabian Sea cable-path anchor"
     },
     {
       "id": "PK_10",
