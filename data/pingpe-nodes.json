@@ -6,17 +6,17 @@
     "target": "191.223.216.145",
     "method": "public-task-result"
   },
-  "observed_at": "2026-09-13T20:30:57.632Z",
-  "catalog_hash": "40f17945ee708e4927084c1e75817ab75d64432e62a2d2113437aadda7ee12a5",
-  "node_count": 165,
+  "observed_at": "2026-09-20T20:31:43.773Z",
+  "catalog_hash": "a67c1e8724ac8213a4024e654689a11a321b50c6090d02e7c65abc6189aa85a3",
+  "node_count": 168,
   "curated_count": 36,
   "region_counts": {
-    "north-america": 38,
+    "north-america": 39,
     "south-america": 8,
-    "europe": 45,
+    "europe": 46,
     "africa": 5,
     "middle-east": 18,
-    "asia": 47,
+    "asia": 48,
     "oceania": 2,
     "unknown": 2
   },
@@ -71,6 +71,16 @@
       "provider": "Dot Internet",
       "short_location": "BD Dhk",
       "short_provider": "DotInt",
+      "country_code": "BD",
+      "region": "asia"
+    },
+    {
+      "id": "BD_140",
+      "ip": "123.49.9.6",
+      "location": "Bangladesh, Dhaka",
+      "provider": "BTCL",
+      "short_location": "BD Dhk",
+      "short_provider": "BTCL",
       "country_code": "BD",
       "region": "asia"
     },
@@ -681,6 +691,16 @@
       "provider": "Interhost",
       "short_location": "NL Ams",
       "short_provider": "Inthst",
+      "country_code": "NL",
+      "region": "europe"
+    },
+    {
+      "id": "EU_NL_5",
+      "ip": "185.7.78.44",
+      "location": "Netherlands, Steenbergen",
+      "provider": "NFOrce",
+      "short_location": "NL Stb",
+      "short_provider": "NFOrce",
       "country_code": "NL",
       "region": "europe"
     },
@@ -1561,6 +1581,16 @@
       "provider": "Evolushost",
       "short_location": "US Buf",
       "short_provider": "Evolus",
+      "country_code": "US",
+      "region": "north-america"
+    },
+    {
+      "id": "US_OH_10",
+      "ip": "198.133.237.47",
+      "location": "USA, OH, Ottoville",
+      "provider": "Swiftnode",
+      "short_location": "US Ott",
+      "short_provider": "Swftnd",
       "country_code": "US",
       "region": "north-america"
     },
