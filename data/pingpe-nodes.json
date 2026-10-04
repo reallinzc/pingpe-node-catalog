@@ -6,23 +6,21 @@
     "target": "191.223.216.145",
     "method": "public-task-result"
   },
-  "observed_at": "2026-09-20T20:31:43.773Z",
-  "catalog_hash": "a67c1e8724ac8213a4024e654689a11a321b50c6090d02e7c65abc6189aa85a3",
-  "node_count": 168,
-  "curated_count": 36,
+  "observed_at": "2026-10-04T20:30:50.273Z",
+  "catalog_hash": "66e76f0cae86958b2ca65721237cf175795a12830f5bcc9af9170d2e2b06ea11",
+  "node_count": 171,
+  "curated_count": 37,
   "region_counts": {
-    "north-america": 39,
+    "north-america": 40,
     "south-america": 8,
-    "europe": 46,
+    "europe": 47,
     "africa": 5,
     "middle-east": 18,
-    "asia": 48,
+    "asia": 49,
     "oceania": 2,
     "unknown": 2
   },
-  "missing_curated_ids": [
-    "EU_DE_4"
-  ],
+  "missing_curated_ids": [],
   "nodes": [
     {
       "id": "AR_100",
@@ -71,6 +69,16 @@
       "provider": "Dot Internet",
       "short_location": "BD Dhk",
       "short_provider": "DotInt",
+      "country_code": "BD",
+      "region": "asia"
+    },
+    {
+      "id": "BD_130",
+      "ip": "157.119.186.4",
+      "location": "Bangladesh, Dhaka",
+      "provider": "Summit",
+      "short_location": "BD Dhk",
+      "short_provider": "Summit",
       "country_code": "BD",
       "region": "asia"
     },
@@ -511,6 +519,16 @@
       "provider": "Evolushost",
       "short_location": "DE Ber",
       "short_provider": "Evolus",
+      "country_code": "DE",
+      "region": "europe"
+    },
+    {
+      "id": "EU_DE_4",
+      "ip": "103.76.130.210",
+      "location": "Germany, Frankfurt",
+      "provider": "Nexonhost",
+      "short_location": "DE Fra",
+      "short_provider": "Nexon",
       "country_code": "DE",
       "region": "europe"
     },
@@ -1308,9 +1326,9 @@
       "id": "UA_10",
       "ip": "145.239.90.53",
       "location": "Ukraine, Kyiv",
-      "provider": "Lifecell",
+      "provider": "Cloudflare",
       "short_location": "UA Kyv",
-      "short_provider": "Life",
+      "short_provider": "CF",
       "country_code": "UA",
       "region": "europe"
     },
@@ -1411,6 +1429,16 @@
       "provider": "Freakhosting",
       "short_location": "US LA",
       "short_provider": "FreakH",
+      "country_code": "US",
+      "region": "north-america"
+    },
+    {
+      "id": "US_CA_41",
+      "ip": "149.7.2.164",
+      "location": "USA, CA, Los Angeles",
+      "provider": "Cogent",
+      "short_location": "US LA",
+      "short_provider": "Cogent",
       "country_code": "US",
       "region": "north-america"
     },
@@ -1873,6 +1901,18 @@
       "region": "europe",
       "label": "PingPE-NL-Amsterdam-Hybula",
       "reason": "Amsterdam interconnection anchor"
+    },
+    {
+      "id": "EU_DE_4",
+      "ip": "103.76.130.210",
+      "location": "Germany, Frankfurt",
+      "provider": "Nexonhost",
+      "short_location": "DE Fra",
+      "short_provider": "Nexon",
+      "country_code": "DE",
+      "region": "europe",
+      "label": "PingPE-DE-Frankfurt-Nexonhost",
+      "reason": "Frankfurt interconnection anchor"
     },
     {
       "id": "EU_ES_110",
