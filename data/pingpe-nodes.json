@@ -6,21 +6,23 @@
     "target": "191.223.216.145",
     "method": "public-task-result"
   },
-  "observed_at": "2026-10-04T20:30:50.273Z",
-  "catalog_hash": "66e76f0cae86958b2ca65721237cf175795a12830f5bcc9af9170d2e2b06ea11",
-  "node_count": 171,
-  "curated_count": 37,
+  "observed_at": "2026-10-11T20:31:15.384Z",
+  "catalog_hash": "b842731a2a08fd1cc5ece4fb2aefebb79fa5108077189f22c00ed53474df20ef",
+  "node_count": 167,
+  "curated_count": 36,
   "region_counts": {
     "north-america": 40,
     "south-america": 8,
     "europe": 47,
     "africa": 5,
-    "middle-east": 18,
-    "asia": 49,
+    "middle-east": 15,
+    "asia": 48,
     "oceania": 2,
     "unknown": 2
   },
-  "missing_curated_ids": [],
+  "missing_curated_ids": [
+    "OM_110"
+  ],
   "nodes": [
     {
       "id": "AR_100",
@@ -329,16 +331,6 @@
       "provider": "China Mobile",
       "short_location": "CN Js",
       "short_provider": "CM",
-      "country_code": "CN",
-      "region": "asia"
-    },
-    {
-      "id": "CN_105",
-      "ip": "153.36.1.139",
-      "location": "China, Jiangsu",
-      "provider": "China Unicom",
-      "short_location": "CN Js",
-      "short_provider": "CU",
       "country_code": "CN",
       "region": "asia"
     },
@@ -1143,16 +1135,6 @@
       "region": "africa"
     },
     {
-      "id": "OM_110",
-      "ip": "143.14.56.53",
-      "location": "Oman, Muscat",
-      "provider": "EdgeNext",
-      "short_location": "OM MCT",
-      "short_provider": "EdgNxt",
-      "country_code": "OM",
-      "region": "middle-east"
-    },
-    {
       "id": "PK_10",
       "ip": "154.92.30.70",
       "location": "Pakistan, Karachi",
@@ -1269,26 +1251,6 @@
       "provider": "Netlen",
       "short_location": "TR Ist",
       "short_provider": "Netlen",
-      "country_code": "TR",
-      "region": "middle-east"
-    },
-    {
-      "id": "TR_120",
-      "ip": "91.92.16.7",
-      "location": "Turkey, Bursa",
-      "provider": "NetWeb",
-      "short_location": "TR Bur",
-      "short_provider": "NetWeb",
-      "country_code": "TR",
-      "region": "middle-east"
-    },
-    {
-      "id": "TR_121",
-      "ip": "62.106.94.246",
-      "location": "Turkey, Bursa",
-      "provider": "PENDC",
-      "short_location": "TR Bur",
-      "short_provider": "PENDC",
       "country_code": "TR",
       "region": "middle-east"
     },
@@ -2057,18 +2019,6 @@
       "region": "middle-east",
       "label": "PingPE-AE-Dubai-NetActuate",
       "reason": "Gulf interconnection anchor"
-    },
-    {
-      "id": "OM_110",
-      "ip": "143.14.56.53",
-      "location": "Oman, Muscat",
-      "provider": "EdgeNext",
-      "short_location": "OM MCT",
-      "short_provider": "EdgNxt",
-      "country_code": "OM",
-      "region": "middle-east",
-      "label": "PingPE-OM-Muscat-EdgeNext",
-      "reason": "Arabian Sea cable-path anchor"
     },
     {
       "id": "PK_10",
