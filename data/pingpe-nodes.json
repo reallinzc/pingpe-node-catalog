@@ -6,23 +6,21 @@
     "target": "191.223.216.145",
     "method": "public-task-result"
   },
-  "observed_at": "2026-10-11T20:31:15.384Z",
-  "catalog_hash": "b842731a2a08fd1cc5ece4fb2aefebb79fa5108077189f22c00ed53474df20ef",
-  "node_count": 167,
-  "curated_count": 36,
+  "observed_at": "2026-10-18T20:30:18.619Z",
+  "catalog_hash": "d542250d0f8ea5e35fabc3f993ec453c128efccec8edfdb74f1a44138a4ee217",
+  "node_count": 173,
+  "curated_count": 37,
   "region_counts": {
     "north-america": 40,
     "south-america": 8,
-    "europe": 47,
+    "europe": 49,
     "africa": 5,
-    "middle-east": 15,
-    "asia": 48,
+    "middle-east": 17,
+    "asia": 50,
     "oceania": 2,
     "unknown": 2
   },
-  "missing_curated_ids": [
-    "OM_110"
-  ],
+  "missing_curated_ids": [],
   "nodes": [
     {
       "id": "AR_100",
@@ -335,6 +333,16 @@
       "region": "asia"
     },
     {
+      "id": "CN_105",
+      "ip": "153.36.1.139",
+      "location": "China, Jiangsu",
+      "provider": "China Unicom",
+      "short_location": "CN Js",
+      "short_provider": "CU",
+      "country_code": "CN",
+      "region": "asia"
+    },
+    {
       "id": "CN_112",
       "ip": "61.164.246.102",
       "location": "China, Lishui",
@@ -545,6 +553,16 @@
       "region": "europe"
     },
     {
+      "id": "EU_DE_8",
+      "ip": "195.26.26.24",
+      "location": "Germany, Frankfurt",
+      "provider": "Leaseweb",
+      "short_location": "DE Fra",
+      "short_provider": "LeaseW",
+      "country_code": "DE",
+      "region": "europe"
+    },
+    {
       "id": "EU_ES_110",
       "ip": "45.159.97.148",
       "location": "Spain, Madrid",
@@ -731,6 +749,16 @@
       "provider": "ZetNet",
       "short_location": "NL Ams",
       "short_provider": "ZetNet",
+      "country_code": "NL",
+      "region": "europe"
+    },
+    {
+      "id": "EU_NL_70",
+      "ip": "194.29.79.50",
+      "location": "Netherlands, Amsterdam",
+      "provider": "Leaseweb",
+      "short_location": "NL Ams",
+      "short_provider": "LeaseW",
       "country_code": "NL",
       "region": "europe"
     },
@@ -1065,6 +1093,16 @@
       "region": "middle-east"
     },
     {
+      "id": "IR_55",
+      "ip": "109.70.77.73",
+      "location": "Iran, Tehran",
+      "provider": "Webdade",
+      "short_location": "IR Teh",
+      "short_provider": "Webdad",
+      "country_code": "IR",
+      "region": "middle-east"
+    },
+    {
       "id": "JP_10",
       "ip": "103.134.34.7",
       "location": "Japan, Tokyo",
@@ -1133,6 +1171,16 @@
       "short_provider": "EdgNxt",
       "country_code": "NG",
       "region": "africa"
+    },
+    {
+      "id": "OM_110",
+      "ip": "143.14.56.53",
+      "location": "Oman, Muscat",
+      "provider": "EdgeNext",
+      "short_location": "OM MCT",
+      "short_provider": "EdgNxt",
+      "country_code": "OM",
+      "region": "middle-east"
     },
     {
       "id": "PK_10",
@@ -1281,6 +1329,16 @@
       "provider": "Google",
       "short_location": "TW Tai",
       "short_provider": "Google",
+      "country_code": "TW",
+      "region": "asia"
+    },
+    {
+      "id": "TW_110",
+      "ip": "103.131.189.79",
+      "location": "Taiwan, Taipei",
+      "provider": "HostingInside",
+      "short_location": "TW Tpe",
+      "short_provider": "HstIns",
       "country_code": "TW",
       "region": "asia"
     },
@@ -2019,6 +2077,18 @@
       "region": "middle-east",
       "label": "PingPE-AE-Dubai-NetActuate",
       "reason": "Gulf interconnection anchor"
+    },
+    {
+      "id": "OM_110",
+      "ip": "143.14.56.53",
+      "location": "Oman, Muscat",
+      "provider": "EdgeNext",
+      "short_location": "OM MCT",
+      "short_provider": "EdgNxt",
+      "country_code": "OM",
+      "region": "middle-east",
+      "label": "PingPE-OM-Muscat-EdgeNext",
+      "reason": "Arabian Sea cable-path anchor"
     },
     {
       "id": "PK_10",
